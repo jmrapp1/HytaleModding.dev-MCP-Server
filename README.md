@@ -8,10 +8,11 @@ An MCP (Model Context Protocol) server that provides AI tools with access to the
 
 Search the documentation index. Returns matching pages and sections grouped by page with URLs and breadcrumb paths.
 
-| Parameter | Type   | Required | Default | Description                    |
-|-----------|--------|----------|---------|--------------------------------|
-| `query`   | string | yes      |         | Search query text              |
-| `locale`  | string | no       | `"en"`  | Locale code                    |
+| Parameter | Type   | Required | Default | Description                         |
+|-----------|--------|----------|---------|-------------------------------------|
+| `query`   | string | yes      |         | Search query text                   |
+| `locale`  | string | no       | `"en"`  | Locale code                         |
+| `limit`   | number | no       | `10`    | Limits the number of pages returned |
 
 ### `get_doc`
 
