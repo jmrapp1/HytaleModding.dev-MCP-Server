@@ -1,6 +1,6 @@
-# Hytale Modding MCP Server
+# HytaleModding.dev MCP Server
 
-An MCP (Model Context Protocol) server that provides AI tools with access to the [Hytale modding documentation](https://hytalemodding.dev/en/docs). Run it locally and connect it to Claude Desktop, Cursor, Windsurf, or any MCP-compatible client.
+An MCP (Model Context Protocol) server that provides AI tools with access to the [HytaleModding.dev documentation](https://hytalemodding.dev/en/docs). Run it locally and connect it to Claude Desktop, Cursor, Windsurf, or any MCP-compatible client.
 
 #### Watch how Claude uses it to built out a user interface: [HytaleModding MCP Server Demo](https://youtube.com/watch?v=9f57Cp6Je6I)
 
