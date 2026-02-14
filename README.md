@@ -2,6 +2,8 @@
 
 An MCP (Model Context Protocol) server that provides AI tools with access to the [Hytale modding documentation](https://hytalemodding.dev/en/docs). Run it locally and connect it to Claude Desktop, Cursor, Windsurf, or any MCP-compatible client.
 
+#### Watch how Claude uses it to built out a user interface: [HytaleModding MCP Server Demo](https://youtube.com/watch?v=9f57Cp6Je6I)
+
 ## Tools
 
 ### `search_docs`
@@ -99,4 +101,5 @@ printf '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion
 # Fetch a specific doc page
 printf '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"test","version":"1.0.0"}}}\n{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"get_doc","arguments":{"path":"/en/docs/quick-start"}}}\n' | node dist/index.js 2>/dev/null
 ```
+
 
